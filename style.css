@@ -38,8 +38,8 @@ body {
 
 .menu a:hover {
     background-color: rgba(236, 214, 196, 0.53);
-    padding: 6px;
     border-radius: 12px;
+    transform: scale(105%);
 }
 
 .conteudo {
@@ -90,6 +90,11 @@ body {
 
 .botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
+    transform: scale(105%);
+}
+
+.botao:active {
+    transform: translateY(0px);
 }
 
 .conteudo-img {
